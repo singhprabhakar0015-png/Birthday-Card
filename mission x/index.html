@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero"> 
+<h1 style="text-align:center">Happy Birthday BabyGirl!💞</h1>
+</section>
+
+<section class="letter">  
+<h2>To my Princesss,</h2>
+<p>Happppiesstt birthdayyy to the mosstt amazing person in the whole world!🫶🏼❤️ You make every day better. and there is no one in this world who comes close to my heart more than you babyy. You are the person that i have always wanted and loved the mostt and u deserve every bit of it cutuu. I love you more than words can say. Happy birthday, my love!😘🤭</p>
+</section>
+
+<section class="memories"> 
+<div class="memory"> <h3>The first time we talked IRL</h3>
+<p>I remember at first how i would only look at u from a distance and admire you.i was soo nervous, and when we finally talked i walked home blushing that day. </p>
+</div>
+
+<div class="memory"> <h3>When i knew i liked you </h3>
+   <p>it didn't take long before i realized that you were the one for me.It was the effect of the amazing person that you are which made me fall for you in no time. (i still keep falling btw hehhee.) </p> 
+</div>
+
+<div class="memory"> <h3>Our first date</h3>
+<p>I know i made u very uncomfortable with my autistic behaviour that day but that was just because i couldn't handle your baddie aura and u looked veryy stunningg that dayy like u always do we spent our first date together and it was the best day ever however it was. it was like starting of something beautiful.</p> </div>
+</section>
+
+<section class="photos"><h2> Adorable Photos of my Munchkin🥺</h2>
+
+<div class="photocard">    <P>My all time fav photo of you</P>
+<img src="photo1.jpeg" alt="Photo 1"> </div>
+
+<div class="photocard"> <p>Bachpan se badmosh😍</p> 
+<img src="photo2.jpeg" alt="Photo 2"> </div>
+
+<div class="photocard"> <p>Mini gudiya</p>
+<img src="photo3.jpeg" alt="Photo 3"> </div>
+
+<div class="photocard"> <p>My rotdu bachhha</p>
+<img src="photo4.jpeg" alt="Photo 4" > </div>
+
+</section>
+
+<section class="Love"> <h2>Here are some of the many things I love about you</h2>
+    <P>The way you laugh</P>
+<p>Your prettyy smilee that makes my day</p>
+<P>The way you are nicer to me than anyone else</P>
+<P>How excited you get over little things</P>
+<p>How you blush when i compliment you or flirt with you</p>
+<p> the way you react when i tease you</p>
+<p> How pretty you look without even trying</p>
+
+</section>
+<hr>
+<section class="ending">
+
+    <h2>Happy Birthday, My Love ❤️</h2>
+
+    <p>
+        Thank you for existing and for all the memories we've made and all the happiness you've brought into my life.
+        I hope this year brings you everything you deserve and more.
+
+        I can't wait to make many more memories with you.
+
+        Happyy Birthdayyy, Sweethearttt. 💞
+    </p>
+
+</section>
+<div class="days">
+        <p>You have been on Earth for <span id="days-count"></span> days ❤️</p>
+    </div>
+
+  
+<button class="surprise-btn">Click Me 💞</button>
+
+<p id="secret-message">
+    You deserve all the love, happiness, and forehead kisses in the world. ❤️
+</p>
+
+<div class="heart">❤️</div>
+
+
+
+
+
+  
+
+
+
+
+
+<script>
+    let birthDate = new Date("2007-06-26"); 
+    let today = new Date();
+
+    let difference = today - birthDate;
+    let days = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+    document.getElementById("days-count").textContent = days;
+
+    let button = document.querySelector(".surprise-btn");
+let message = document.getElementById("secret-message");
+
+button.onclick = function () {
+    message.style.display = "block";
+};
+
+  
+</script>
+</body>
+</html>
