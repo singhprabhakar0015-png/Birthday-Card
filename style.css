@@ -1,0 +1,99 @@
+.hero{ background-color:pink;font-weight: bold;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;}
+
+.letter{ padding-top: 80px;
+    padding-bottom: 80px; text-align:center; background-color: pink ;}
+
+
+.photos,
+.Love,
+.ending {
+    background-color: pink;
+}
+
+.photos,
+.Love,
+.ending {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;}
+
+    img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.photocard {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.memory {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.heart {
+    font-size: 60px;
+    text-align: center;
+    animation: beat 1s infinite;
+
+    display: flex;
+    justify-content: center;
+}
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.hero h1 {
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.days {
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.surprise-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+#secret-message {
+    display: none;
+    text-align: center;
+}
